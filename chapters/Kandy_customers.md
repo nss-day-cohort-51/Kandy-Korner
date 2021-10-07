@@ -7,6 +7,6 @@ Utilize the same components as you did in Kennels to implement a login screen in
 * `src/components/auth/Login.js`
 * `src/components/auth/Register.js`
 
-Use `kandy_customer` as the local storage item for tracking authentication.
+Use `kandy_customer` as the session storage item for tracking authentication.
 
 Then refactor **`KandyKorner`** to implement the login screen.
