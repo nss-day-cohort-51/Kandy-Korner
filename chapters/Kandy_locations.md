@@ -11,9 +11,9 @@ You are going to be building your own React application based off of what you do
 
 ## Location Components
 
-Create a directory to hold all of your files for locations, and then create a provider module, a list module, and a single item module.
+Create a directory to hold all of your files for locations, and then create a data module, a list component, and a single item component.
 
-Using the Context hook in your location list module, get the array of locations from the provider. Make sure your location list component is a child of the provider in the **`KandyKorner`** component. All of this will be nearly identical to Kennels.
+Use the `useEffect` and `useState` hooks in the location list component, get the array of locations from the API. All of this will be nearly identical to Kennels.
 
 Here are the properties for a location.
 
