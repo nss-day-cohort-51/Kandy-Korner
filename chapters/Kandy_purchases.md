@@ -9,7 +9,7 @@ In this chapter, you need to allow the user to purchase candy. Add a "Purchase" 
 
 This feels like a new collection in your database. What properties are on these objects that store the relationship between customers and candies?
 
-You need a new array in your `database.json`, and a new provider component in your application to interact with that new collection. Perhaps **`CustomerCandyProvider`**?
+You need a new array in your `database.json`, and a new data manager in your application to interact with that new collection. Perhaps **`CustomerCandyManager`**?
 
 ## Displaying Order
 
